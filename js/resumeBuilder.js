@@ -1,3 +1,5 @@
-/*
-This is empty on purpose! Your code to build the resume will go here.
- */
+$("#main").append("Anna Christine");
+var awesomeThoughts = "I am Anna and I am awesome."
+console.log(awesomeThoughts);
+var funThoughts = awesomeThoughts.replace("awesome", "fun");
+$("#main").append(funThoughts);
